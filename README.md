@@ -35,8 +35,8 @@ A user-friendly Python tool that downloads your most recent Last.fm tracks as hi
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/lastfm_mp3_with_tags.git
-   cd lastfm_mp3_with_tags
+   git clone https://github.com/yourusername/lastmp3.git
+   cd lastmp3
    ```
 
 2. **Install dependencies**
