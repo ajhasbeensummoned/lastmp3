@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lastmp3"
+version = "0.0.1"
+description = "Last.fm Music Downloader - Download and tag your most recent Last.fm tracks"
+readme = "README.md"
+authors = [
+    {name = "Adipaadi", email = "ajhasbeensummoned@gmail.com"}
+]
+license = {file = "LICENSE"}
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "mutagen",
+    "requests",
+    "static_ffmpeg",
+    "yt-dlp",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ajhasbeensummoned/lastfm_mp3_with_tags"
+"Bug Tracker" = "https://github.com/ajhasbeensummoned/lastfm_mp3_with_tags/issues"
+
+[project.scripts]
+lastmp3 = "lastmp3.__main__:main"
