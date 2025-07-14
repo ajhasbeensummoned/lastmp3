@@ -15,6 +15,22 @@ A user-friendly Python tool that downloads your most recent Last.fm tracks as hi
 - Last.fm account
 - You can find the other requirements in requirements.txt
 
+### Installation through PyPi
+1. **Run the Pip Install Command**
+
+On Windows:
+```bash
+py -m pip install lastmp3
+```
+On most Unix-like platforms:
+```bash
+pip3 install lastmp3
+```
+On other platforms, you may try:
+```bash
+pip install lastmp3
+```
+
 ### Installation if you don't wanna do it through PyPi
 
 1. **Clone the repository**
@@ -33,7 +49,20 @@ A user-friendly Python tool that downloads your most recent Last.fm tracks as hi
    - Create a free account if you don't have one
    - Generate an API key (you'll need this for first run)
 
-### Usage
+### Usage (If installed through PyPI)
+
+```bash
+lastmp3 [username]
+```
+
+**Examples:**
+```bash
+lastmp3 johndoe          # Download recent track for user with the username 'johndoe'
+lastmp3 --help or -h     # Show help information
+lastmp3 --version or -v  # Show version information
+```
+
+### Usage (If running manually)
 
 ```bash
 python -m lastmp3 [username]
@@ -50,7 +79,7 @@ python -m lastmp3 --version or -v  # Show version information
 1. Run the command with a Last.fm username
 2. Enter your API key when prompted (one-time setup)
 3. Choose to download track (t) or album (a)
-4. Enjoy your music!
+4. The files will be downloaded to your current working directory
 
 ## File Structure
 
