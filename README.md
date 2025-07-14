@@ -18,18 +18,18 @@ A user-friendly Python tool that downloads your most recent Last.fm tracks as hi
 ### Installation through PyPi
 1. **Run the Pip Install Command**
 
-On Windows:
-```bash
-py -m pip install lastmp3
-```
-On most Unix-like platforms:
-```bash
-pip3 install lastmp3
-```
-On other platforms, you may try:
-```bash
-pip install lastmp3
-```
+   On Windows:
+   ```bash
+   py -m pip install lastmp3
+   ```
+   On most Unix-like platforms:
+   ```bash
+   pip3 install lastmp3
+      ```
+   On other platforms, you may try:
+   ```bash
+   pip install lastmp3
+   ```
 
 ### Installation if you don't wanna do it through PyPi
 
