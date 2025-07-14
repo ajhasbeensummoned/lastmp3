@@ -1,4 +1,4 @@
-name: lastmp3 TestPyPI
+name: lastmp3 PyPI Action
 
 on:
   release:
@@ -24,8 +24,7 @@ jobs:
       - name: Build package
         run: python -m build
 
-      - name: Publish to TestPyPI
+      - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
-          repository-url: https://test.pypi.org/legacy/
-          password: ${{ secrets.TEST_PYPI_API_TOKEN }}
+          password: ${{ secrets.PYPI_API_TOKEN }}
